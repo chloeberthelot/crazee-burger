@@ -1,0 +1,38 @@
+h1{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 110px;
+    letter-spacing: 1.5px;
+    color: #FFA01B;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.logout-btn{
+background-color: #FF9F1B;
+border-radius: 5px;
+width: 400px;
+height: 55px;
+color:#fff;
+font-family: "Arial", sans-serif;
+font-weight: 700;
+font-style: bold;
+font-size: 15px;
+border: 1px solid #FF9F1B;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+text-decoration: none;
+
+}
+
+
+.logout-btn:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #FF9F1B;
+    border: 1px solid #FF9F1B;
+}

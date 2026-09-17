@@ -1,11 +1,13 @@
-import { useState } from "react";
-import heroImg from "./assets/hero.png";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import "./App.css";
-
-function App() {
-  return <p>hello</p>;
+import LoginPage from "./components/pages/login/LoginPage";
+import { Routes, Route } from "react-router-dom";
+import OrderPage from "./components/pages/order/OrderPage.jsx";
+import ErrorPage from "./components/pages/error/ErrorPage.jsx";
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<LoginPage />} />
+      <Route path="/order/:username" element={<OrderPage />} />
+      <Route path="*" element={<ErrorPage />} />
+    </Routes>
+  );
 }
-
-export default App;

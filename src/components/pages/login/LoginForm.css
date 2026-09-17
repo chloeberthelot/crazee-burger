@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../burger-background.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover; /* Ajuste l'image pour remplir la zone */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+ 
+}
+
+
+h1{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 110px;
+    letter-spacing: 1.5px;
+
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#FFFFFF;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+
+}
+
+h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#FFFFFF;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+
+}
+
+.logo{
+    width: 200px;
+    height: 150px;
+    display: flex;
+}
+
+.logo-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFA01B;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acces-btn{
+background-color: #FF9F1B;
+border-radius: 5px;
+width: 400px;
+height: 55px;
+color:#fff;
+font-family: "Arial", sans-serif;
+font-weight: 700;
+font-style: bold;
+font-size: 15px;
+border: 1px solid #FF9F1B;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+}
+
+
+.acces-btn:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #FF9F1B;
+    border: 1px solid #FF9F1B;
+}
+
+.username-wrapper{
+    position: relative;
+}
+
+.username-icon{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #747B91;
+}
+
+.username-input{
+background-color: #FFFFFF;
+border: none;
+border-radius: 5px;
+color:#17161A;
+font-family: "Arial", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 15px;
+padding-left: 40px;
+width: 400px;
+height: 55px;
+box-sizing: border-box;
+}
+
+input::placeholder {
+color:#D3D3D3;
+font-family: "Arial", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 15px;
+text-align: left;
+}
+
+
+hr{
+    border: 1px solid #F56A2C;
+    background-color: #F56A2C;
+  height: 3px;
+  width: 400px;
+}
